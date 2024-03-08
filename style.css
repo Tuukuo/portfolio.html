@@ -1,0 +1,160 @@
+.h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.first{
+    display: flex;
+    gap: 7%;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 7%;
+}
+.family{
+    position: relative;
+    height: 600px;
+    width: 50%;
+}
+.logo{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 900px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.centre{
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    left: 100px;
+    color: white;
+    font-size: x-large;
+
+}
+#button{
+    border: solid 1px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 900px;
+    color: white;
+    background-color: darkorange;
+    width: 90px;
+    height: 70px;
+
+  
+}
+.moving{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 100px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.input{
+    color: darkorange;
+}
+.box{
+   height: 350px;
+   width: 30%; 
+}
+.movers{
+    height: 500px;
+    width: 30%;
+}
+
+.short{
+    display: flex;
+   gap: 10%;
+}
+.follow{
+    display: flex;
+    gap: 10%;
+}
+.storage{
+    background-color: lightblue;
+}
+.read{
+    color: darkorange;
+}
+.video{
+    height: 100px;
+    width: 150px;
+    
+}
+.day{
+    height: 200px;
+    width: 200px;
+}
+.round{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.testimonials{
+    display: flex;
+    gap: 5%;
+}
+.small{
+    display: flex;
+    margin-left: 700px;
+    gap: 5%;
+    
+}
+p1{
+background: fixed; 
+background-color: blue;  
+}
+.winding{
+    margin-left: 700px;
+}
+.three{
+    height: 250px;
+    width: 100px;
+    display: flex;
+    gap: 5%;
+    margin-left: 400px;
+}
+.help{
+    display: flex;
+    text-align: center;
+    gap: 7%; 
+    margin-top: 50px; 
+    border: solid 1px;
+    padding: 100px 100px 100px 100px;
+    background-color: darkorange;
+    color: white;
+
+}
+.align{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap: 15%;
+    border: solid 1px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+    background-color: black;
+    color: white;
+
+}
+@media screen and (min-width:480px){
+    body{
+
+    }
+}
+.container{
+    overflow-x: hidden;
+}
